@@ -1,6 +1,8 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const {ObjectId} = require('mongodb')
+const cors = require('cors');
+
 // Importing required functions from dbConnection.cjs
 const {connectToDb, getDb} = require('./dbConnection.cjs')
 
